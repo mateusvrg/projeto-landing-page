@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 56px;
+    margin-top: 52px;
+}
+
+#titulo-menusuperior{
+    margin-left: 172px;
+    margin-top: 71px;
+    font-size: 40px;
+}
+
+#paragrafo-menusuperior{
+    margin-left: 172px;
+    margin-top: 32px;
+    padding-bottom: 151px;
+    font-size: 20px;
+}
+
+#menusuperior{
+    background-image: url(./imagens/fundo-menu.svg);
+    font-family: 'inter';
+    color: #FFFFFF;
+}
+
+#menuinformativo{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 67.11px 0px 68.16px 174.11px;
+    padding: 17.05px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    font-size: 32px;
+    margin-top: 97px;
+}
+
+#video{
+    margin: 82px 30px 0px 172px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+    margin-top: 85px;
+}
+
+#titulo-carrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.card{
+    margin-left: 50px;
+    margin-top: 55px;
+    align-items: center;
+}
+
+#seta-esquerda{
+    display: none;
+    margin-right: -60px;
+}
+
+#samantha{
+    display: none;
+}
+
+.seta{
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+#seta-direita:hover{
+    transform:translateX(5px);
+    transition-duration: 0.5s;
+}
+
+#seta-esquerda:hover{
+    transform: translateX(-5px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+    color: #383838;
+}
+
+#titulo-formulario{
+    margin: 35px;
+    font-size: 28px;
+}
+
+input{
+    background-color: #EAECE5;
+    width: 350px;
+    height: 45px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 280px;
+    height: 45px;
+    border: 0px;
+    color: #FFFFFF;
+    font: 'inter';
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 23px;
+    margin-bottom: 65px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #155975;
+    transform: translateY(-8px);
+    transition-duration: 0.7s;
+    box-shadow: 0px 5px 15px #3838388c;
+}
+
+
